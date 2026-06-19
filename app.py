@@ -1,10 +1,9 @@
-import tkinter as tk
+print("================================")
+print("        Bienvenue sur")
+print("           Welf.io")
+print("================================")
 
-fenetre = tk.Tk()
-fenetre.title("Welf.io")
-fenetre.geometry("600x400")
+nom = input("Entrez votre nom : ")
 
-titre = tk.Label(fenetre, text="Welf.io", font=("Arial", 30))
-titre.pack(pady=100)
-
-fenetre.mainloop()
+print(f"Bonjour {nom} !")
+print("Merci d'utiliser Welf.io.")
